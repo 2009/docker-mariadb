@@ -1,3 +1,9 @@
+# MariaDB docker setup w/ host socket support
+
+* Uses `./mysql` on the host to store database files and allow access
+* Create `/var/run/mysqld/mysqld.socket` to allow the host to connect to mysql on the
+container using mysql clients on the host.
+
 ## Running
 
 Use the following shell script:

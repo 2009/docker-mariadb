@@ -22,3 +22,7 @@ socat UNIX-LISTEN:/var/run/mysqld/mysqld.sock,fork,\
 reuseaddr,unlink-early,user=mysql,group=mysql,mode=777 \
 TCP:localhost:3306 &
 ```
+
+## TODO
+
+Consider switching to: [https://github.com/bitnami/bitnami-docker-mariadb](https://github.com/bitnami/bitnami-docker-mariadb)

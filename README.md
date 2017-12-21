@@ -12,7 +12,7 @@ Use the following shell script:
 ./start.sh
 ```
 
-## Create a socket on the host to forward connections
+## Create a socket on the host to forward connections (what start.sh does)
 
 This uses **socat** and allows you to run the `mysql` client and connect
 the docker instance without having define any additional params.

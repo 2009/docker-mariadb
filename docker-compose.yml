@@ -10,3 +10,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD:
       MYSQL_ALLOW_EMPTY_PASSWORD: 1
+    networks:
+      - default
+
+networks:
+  default:
